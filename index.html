@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Frequency Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Word Frequency Analyzer</h1>
+        <textarea id="inputText" placeholder="Enter your text here"></textarea>
+        <button id="analyzeButton">Analyze</button>
+        <div id="outputContainer">
+            <div id="highlightedText"></div>
+            <button id="wordStatsButton">Word Statistics</button>
+        </div>
+        <div id="wordStatsContainer">
+            <h2>Word Statistics</h2>
+            <ul id="wordStatsOutput"></ul>
+            <p>Color Breakdown:</p>
+            <ul id="colorStatsOutput">
+                <li>Most Frequent (Green): <span id="greenCount">0</span></li>
+                <li>High Frequency (Yellow): <span id="yellowCount">0</span></li>
+                <li>Moderate Frequency (Orange): <span id="orangeCount">0</span></li>
+                <li>Less Frequent (Red): <span id="redCount">0</span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
